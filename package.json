@@ -1,0 +1,15 @@
+{
+  "name": "kafka-nodejs-project",
+  "version": "1.0.0",
+  "description": "Advanced Kafka Node.js Project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "produce": "node src/producer.js",
+    "consume": "node src/consumer.js"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "dotenv": "^16.0.3"
+  }
+}
